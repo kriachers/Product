@@ -306,6 +306,7 @@ max-width: 400px;
 -----------------------MOBILE--------------
 --------------------------------------------*/
 
+
 @media only screen and (max-width: 411px) {
 
 
@@ -483,6 +484,10 @@ margin-bottom: 62px;
 margin-bottom: 32px;
 }
 
+.join__img {
+    max-width: 280px;
+}
+
 /* FOOTER */
 
 .footer-section__title {
@@ -505,4 +510,22 @@ margin-bottom: 44px;
     margin-bottom: 45px;
 }
 
+}
+
+
+@media only screen and (max-width: 380px) {
+
+    .main__buttons {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .main__link-green {
+        display: inline;
+        margin-bottom: 28px;
+        margin-right: 0px;
+        padding: 15px 25px;
+    }
 }
