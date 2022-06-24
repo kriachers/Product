@@ -1,0 +1,16 @@
+:root {
+    --accent-color: #02897A;
+    --dark-color: #252B42;
+    --white-color: #fff;
+    --too-dark-color: #22343D;
+    --logo-color: #173A56;
+    background-color: #fff;
+}
+
+.logo-dark {
+    display: none;
+}
+
+.logo-light {
+    display: block;
+}

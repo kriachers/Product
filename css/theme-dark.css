@@ -1,0 +1,178 @@
+
+:root {
+    background-color: #1F2E35;
+    --too-dark-color: #fff;
+} 
+
+body {
+     background-color: #1F2E35;
+}
+
+.specific__bg {
+    background-image: url(../img/specific_darkbg.svg);
+}
+
+.process__bg {
+    background-image: url(../img/process_dark.svg);
+}
+
+.logo-light {
+    display: none;
+}
+
+.logo-dark {
+    display: block;
+} 
+
+/* BURGER */
+
+@media only screen and (max-width: 800px) {
+
+.header__right.active {
+    background-color: #1F2E35;
+    box-shadow: -7px -7px 10px #29353B;
+}
+
+}
+
+
+/* HEADER */
+
+.bar {
+    background-color: #fff;
+}
+
+.nav__link {
+    color: #fff;
+}
+
+
+.main__title {
+    color: #fff;
+}
+
+.main__descr {
+    color: #fff;
+
+}
+
+
+.specific__title {
+    color: #fff;
+}
+
+
+.specific__grid-title {
+color: #fff;
+}
+
+.specific__grid-descr {
+    color: #fff;
+
+}
+
+
+/* РЕШЕНИЕ ДЛЯ ВЫРАВНИВАНИЯ ПО ЦЕНТРУ ССЫЛКИ - обоачиваем в див  */
+
+.benefits__small-title {
+
+color: #fff;
+
+}
+
+.benefits__title {
+        color: #fff;
+}
+
+.benefits__descr {
+    color: #fff;
+}
+
+
+
+.benefits-list__item {
+
+    color: #fff;
+
+}
+
+.process__title {
+    color: #fff;
+
+}
+
+.process__descr {
+    color: #fff;
+
+}
+
+
+/* ALIGN ITEMS ПО Y */
+
+.process-grid--descr {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F281E;
+}
+
+/* STRATEGY */
+
+.strategy__title {
+    color: #fff;
+}
+
+.strategy__descr {
+    color: #fff;
+
+}
+
+
+.strategy-card__title {
+    color: #fff;
+}
+
+.strategy-card__info {
+    color: #fff;
+}
+
+.current-link {
+    color: var(--accent-color);
+}
+
+
+.price__title {
+    color: #fff;
+}
+
+.price__descr {
+    color: #fff;
+}
+
+
+/* CLIENTS SAY */
+
+.rewiews__title {
+    color: #fff;
+}
+
+.rewiews__descr {
+    color: #fff;
+}
+
+/* FOOTER */
+
+.footer-section__title {
+    color: #fff;
+}
+
+.footer-section__list {
+    color: #fff;
+}
+
+.footer__copyright {
+    color: #fff;
+
+}
+
+
