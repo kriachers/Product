@@ -67,7 +67,10 @@ p {
 .container {
     margin: 0px 145px;
     margin-bottom: 150px;
+    overflow-x: hidden;
 }
+
+/* ДЛЯ ТОГО, ЧТОБЫ УБРАТЬ ГОРИЗОНТАЛЬНЫЙ СКРОЛЛ МЕШАЮЩИЙ */
 
 
 .list-reset {
@@ -494,6 +497,7 @@ color: var(--too-dark-color);
     padding: 15px 24px 20px 24px;
     box-shadow: 0px 2px 8px rgba(86, 117, 146, 0.1);
     border-radius: 26.5px;
+    z-index: 2;
 }
 
 .process-card__paragraph--left::after {
@@ -505,6 +509,7 @@ background: #FFFFFF;
 bottom: -7px;
 box-shadow: 0px 2px 8px rgba(86, 117, 146, 0.1);
 border-radius: 50%;
+z-index: 1;
 }
 
 .process-card__paragraph--right {
@@ -516,6 +521,7 @@ border-radius: 50%;
     padding: 15px 24px 20px 24px;
     box-shadow: 0px 2px 8px rgba(86, 117, 146, 0.1);
     border-radius: 26.5px;
+    z-index: 2;
 }
 
 .process-card__paragraph--right::after {
@@ -528,9 +534,13 @@ border-radius: 50%;
     left: calc(75% + 5px);
     box-shadow: 0px 2px 8px rgba(86, 117, 146, 0.1);
     border-radius: 50%;
+    z-index: 1;
     /* позиционирование через calc, чтобы круг съезжал вместе с чат баблом */
 }
 
+.process-card__paragraph {
+    z-index: 10;
+}
 
 /* ALIGN ITEMS ПО Y */
 
@@ -540,6 +550,7 @@ font-size: 16px;
 /* line-height: 24px; */
 color: #2F281E;
 margin: 0;
+z-index: 5;
 }
 
 .process_grid-descr-buble{
