@@ -16,6 +16,10 @@ margin: 0;
 --logo-color: #173A56;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* :root[data-theme='dark'] {
 background-color: #1F2E35;
 --too-dark-color:#fff;
@@ -67,7 +71,7 @@ p {
 .container {
     margin: 0px 145px;
     margin-bottom: 150px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* ДЛЯ ТОГО, ЧТОБЫ УБРАТЬ ГОРИЗОНТАЛЬНЫЙ СКРОЛЛ МЕШАЮЩИЙ */
