@@ -9,11 +9,11 @@ body {
 }
 
 .specific__bg {
-    background-image: url(../img/specific_darkbg.svg);
+    background-image: url(./img/specific_darkbg.svg);
 }
 
 .process__bg {
-    background-image: url(../img/process_dark.svg);
+    background-image: url(./img/process_dark.svg);
 }
 
 .logo-light {
